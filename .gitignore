@@ -1,0 +1,12 @@
+
+\.idea/
+
+\.gradle/buildOutputCleanup/
+
+\.gradle/4\.4/taskHistory/
+
+\.gradle/4\.4/fileHashes/
+
+\.gradle/4\.4/fileChanges/
+
+app/app\.iml

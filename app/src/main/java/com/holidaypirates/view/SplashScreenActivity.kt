@@ -1,4 +1,4 @@
-package com.holidaypirates
+package com.holidaypirates.view
 
 import android.content.Intent
 import android.os.Bundle

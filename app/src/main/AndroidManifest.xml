@@ -19,7 +19,7 @@
         <activity
             android:name="com.holidaypirates.view.activities.DetailsActivity"
             android:label="@string/details" />
-        <activity android:name="com.holidaypirates.SplashScreenActivity">
+        <activity android:name="com.holidaypirates.view.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
