@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:subtitleTextColor="@color/colorWhite"
+        app:title="Details"
+        app:titleTextColor="@color/colorWhite" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/fragmentUserDetails"
+                class="com.holidaypirates.view.fragments.UserDetailsFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin8dp"
+                android:layout_marginRight="@dimen/margin8dp"
+                android:layout_marginTop="@dimen/margin8dp" />
+
+            <fragment
+                android:id="@+id/fragmentPhotos"
+                class="com.holidaypirates.view.fragments.PhotosFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin8dp"
+                android:layout_marginRight="@dimen/margin8dp"
+                android:layout_marginTop="@dimen/margin8dp" />
+
+            <fragment
+                android:id="@+id/fragmentComments"
+                class="com.holidaypirates.view.fragments.CommentsFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin8dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
